@@ -1,7 +1,14 @@
 import java.util.Random;
+imoort java.util.Scannar;
 
 public class HeadsOrTails {
     public static void main(String[] args) {
+        // あいさつをする
+        Scanner scannner = new Scanner(System.in);
+        System.out.println("あなたの名前は何ですか？");
+        String name = scannner.next();
+        System.out.println("こんにちは！"+ name +"さん");
+
         Random rand = new Random();
         int headsCount = 0;
         int tailsCount = 0;
